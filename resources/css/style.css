@@ -33,3 +33,45 @@
 .headernavcontainer a{
   color: black;
 }
+
+/* Main Content */
+.contentcontainer div{
+  border: thin solid black;
+}
+
+.contentcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.columnlargecontainer{
+  width: 630px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.columnmediumcontainer{
+  width: 300px;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.columnsmallcontainer{
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
