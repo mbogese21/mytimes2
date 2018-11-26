@@ -1,0 +1,35 @@
+/* Header Styling */
+.headercontainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: thin solid black;
+  padding: 10px 25px;
+}
+.headerlogocontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.headerlogocontainer p{
+  padding-left: 5px;
+  color: MediumAquamarine;
+}
+.headernavcontainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.headernavcontainer span{
+  padding: 10px;
+  text-decoration: underline;
+}
+.headernavcontainer a{
+  color: black;
+}
